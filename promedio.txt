@@ -1,0 +1,2 @@
+El nombre del estudiante es Juan
+ha obtenido el promedio de 4
