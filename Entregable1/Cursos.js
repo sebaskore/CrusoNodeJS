@@ -7,14 +7,14 @@
 
     };
     let Curso2={
-        id:1,
+        id:2,
         nombre:"ReactJS",
         duracion: 25,
         valor:25000
 
     };
     let Curso3={
-        id:1,
+        id:3,
         nombre:"Bases de datos",
         duracion: 80,
         valor:25000
@@ -28,7 +28,7 @@
     function MostrarCurso(Curso) {
         return new Promise(resolve => {// se declara promesa
           setTimeout(() => {
-            resolve("Id:"+Curso.id+" Nombre:"+Curso.nombre+" Duracion:"+Curso.duracion+" Valor:"+Curso.valor);
+            resolve(`Id:${Curso.id} Nombre:${Curso.nombre} Duracion:${Curso.duracion} Valor:${Curso.valor}`);
           }, 2000);
         });
       }
